@@ -24,7 +24,7 @@ resource "azurerm_resource_group" "manish" {
 
 }
  resource "azurerm_storage_account" "data900003" {
-   name                ="data900001"
+   name                ="data900003"
    resource_group_name ="manish"
    location            ="East US"
    account_tier        = "Standard"
